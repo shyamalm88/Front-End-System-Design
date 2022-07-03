@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-03T15:49:30.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Vp0LZTgK5ZsVb9IwPWmw" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-03T15:50:03.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="oJJjZUGxcJckKFKvHC3r" version="19.0.3" type="github">
   <diagram id="jE26jxXe5YH31CJZeTDk" name="Page-1">
     <mxGraphModel dx="2178" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -112,13 +112,13 @@
         <mxCell id="KsaErcmCSFaaKNWz6VW0-36" value="&lt;b&gt;Data Model&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="620" y="660" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KsaErcmCSFaaKNWz6VW0-37" value="&lt;b&gt;Story: {&lt;br&gt;id: string,&lt;br&gt;userId: string,&lt;br&gt;comments: comments[],&lt;br&gt;media: media[],&lt;br&gt;dateCreatedOn: TimeStamp,&lt;br&gt;content: string,&lt;br&gt;userId: String,&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="KsaErcmCSFaaKNWz6VW0-37" value="&lt;b&gt;type Story: {&lt;br&gt;id: string,&lt;br&gt;userId: string,&lt;br&gt;comments: comments[],&lt;br&gt;media: media[],&lt;br&gt;dateCreatedOn: TimeStamp,&lt;br&gt;content: string,&lt;br&gt;userId: String,&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="695" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="KsaErcmCSFaaKNWz6VW0-38" value="&lt;b&gt;comments: {&lt;br&gt;id: string,&lt;br&gt;userId: string,&lt;br&gt;content: string&lt;br&gt;date: timeStamp&lt;br&gt;}&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="840" y="675" width="110" height="90" as="geometry" />
+        <mxCell id="KsaErcmCSFaaKNWz6VW0-38" value="&lt;b&gt;type comments: {&lt;br&gt;id: string,&lt;br&gt;userId: string,&lt;br&gt;content: string&lt;br&gt;date: timeStamp&lt;br&gt;}&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="840" y="675" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KsaErcmCSFaaKNWz6VW0-39" value="&lt;b&gt;media: {&lt;br&gt;type: String | Video,&lt;br&gt;url: string&lt;br&gt;}&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="KsaErcmCSFaaKNWz6VW0-39" value="&lt;b&gt;type media: {&lt;br&gt;type: String | Video,&lt;br&gt;url: string&lt;br&gt;}&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="840" y="785" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5R7VL0Oh7dCBh5OWNlFB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5R7VL0Oh7dCBh5OWNlFB-1" target="5R7VL0Oh7dCBh5OWNlFB-2">
