@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-03T21:54:34.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OGlJPPBl0p9Nhj4YMRT0" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-03T22:08:26.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IxHaTwcEVdqtEdKl9q47" version="20.0.4" type="github">
   <diagram id="d4RTVTLFjbAPIMbOJhSi" name="Page-1">
     <mxGraphModel dx="996" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -214,6 +214,72 @@
         </mxCell>
         <mxCell id="l8VWmBXfpPARfImJsObf-72" value="Attachments" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=default;labelBackgroundColor=none;labelBorderColor=none;spacingTop=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="1280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-73" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Component Architecture&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="315" y="240" width="215" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=18;fontColor=default;" edge="1" parent="1" source="l8VWmBXfpPARfImJsObf-74" target="l8VWmBXfpPARfImJsObf-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=18;fontColor=default;" edge="1" parent="1" source="l8VWmBXfpPARfImJsObf-74" target="l8VWmBXfpPARfImJsObf-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=18;fontColor=default;" edge="1" parent="1" source="l8VWmBXfpPARfImJsObf-74" target="l8VWmBXfpPARfImJsObf-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="1490" />
+              <mxPoint x="315" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-74" value="API" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=18;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-75" value="SSE" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-77" value="WebSocket" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-78" value="LongPolling" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-81" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: initial; font-size: 12px;&quot;&gt;Pros&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 11px;&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;&lt;ol&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;HTTP Benefits&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Barely SImple&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;Cons:&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Long Latency&lt;/li&gt;&lt;li&gt;Connection Timeout because of proxies&lt;/li&gt;&lt;li&gt;Traffic Overhead&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;fontSize=18;fontColor=default;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1630" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-82" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: initial; font-size: 12px;&quot;&gt;Pros&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 11px;&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;&lt;ol&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Duplex Communication&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Super Fast&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;Cons:&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Keeping Live Websocket Connections are expensive&lt;/li&gt;&lt;li&gt;HTTP2 compitability&lt;/li&gt;&lt;li&gt;Hard To Load Balance&lt;/li&gt;&lt;li&gt;Hard with Proxies and firewall to filter TCP protocol&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;fontSize=18;fontColor=default;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1630" width="195" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-83" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: initial; font-size: 12px;&quot;&gt;Pros&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 11px;&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;&lt;ol&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;All HTTP Benefits compatible with HTTP2&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Receive data in text format&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Does Not waste device resources&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Easy to Load balance and scaling&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;Cons:&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Unidirectional Communication From Server to Client&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Only Text data&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;labelBorderColor=none;fontSize=18;fontColor=default;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1630" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" edge="1" parent="1" source="l8VWmBXfpPARfImJsObf-84" target="l8VWmBXfpPARfImJsObf-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="1910" />
+              <mxPoint x="490" y="2020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-84" value="Client" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" edge="1" parent="1" source="l8VWmBXfpPARfImJsObf-85" target="l8VWmBXfpPARfImJsObf-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="2020" />
+              <mxPoint x="280" y="1910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-85" value="API" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-88" value="Post Messages to The Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1930" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-89" value="Push Messages via SSE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1950" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
