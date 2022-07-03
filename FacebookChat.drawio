@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-03T22:08:26.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IxHaTwcEVdqtEdKl9q47" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-03T22:21:10.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="h1t4bMmaYcEH2QMYDvrl" version="20.0.4" type="github">
   <diagram id="d4RTVTLFjbAPIMbOJhSi" name="Page-1">
-    <mxGraphModel dx="996" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -261,7 +261,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l8VWmBXfpPARfImJsObf-84" value="Client" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="l8VWmBXfpPARfImJsObf-84" value="Client" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="315" y="1880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l8VWmBXfpPARfImJsObf-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" edge="1" parent="1" source="l8VWmBXfpPARfImJsObf-85" target="l8VWmBXfpPARfImJsObf-84">
@@ -272,7 +272,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l8VWmBXfpPARfImJsObf-85" value="API" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="l8VWmBXfpPARfImJsObf-85" value="API" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="315" y="1990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l8VWmBXfpPARfImJsObf-88" value="Post Messages to The Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
@@ -280,6 +280,24 @@
         </mxCell>
         <mxCell id="l8VWmBXfpPARfImJsObf-89" value="Push Messages via SSE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="145" y="1950" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-90" value="subscribeMessages(api_key, user_id, timeStamps)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="35" y="2100" width="405" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-91" value="getContacts(api_key, user_id)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="35" y="2150" width="405" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-92" value="attachMedia(api_key, user_id, binaryData, message_Id)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="35" y="2200" width="405" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-93" value="sendMessage(api_key, user_id, message)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="35" y="2250" width="405" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-94" value="&lt;b&gt;API EndPoints&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="35" y="2060" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l8VWmBXfpPARfImJsObf-95" value="type Contact{&lt;br&gt;id: string,&lt;br&gt;name: string&lt;br&gt;&lt;br&gt;}&lt;br&gt;&lt;br&gt;type Message{&lt;br&gt;id: string,&lt;br&gt;name: string,&lt;br&gt;attachemnts: attachments[]&lt;br&gt;authorID: string,&lt;br&gt;recieverId:&amp;nbsp; string&lt;br&gt;}&lt;br&gt;&lt;br&gt;type Attachment{&lt;br&gt;id: string,&lt;br&gt;media: audio | video | images,&lt;br&gt;content: URL&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontSize=12;fontColor=default;align=left;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2100" width="220" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
